@@ -6,7 +6,7 @@
   export let transactions, address;
 
   const dispatch = createEventDispatcher();
-  let localAddress = "tz1SjrNeUE4zyPGSZpogDZd5tvryixNDsD2v";
+  let localAddress = "";
   let bakerAddress = "";
   let checkStakingRewards = false;
   let totalIncome = 0;
