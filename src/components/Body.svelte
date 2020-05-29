@@ -109,7 +109,7 @@
         <div class="column is-two-thirds">
           <h1 class="title is-4 is-hidden-mobile">
             Total income {checkStakingRewards ? `from ${formatHash(bakerAddress)}` : ''}
-            for this month: ꜩ {totalIncome}
+            for this month: ꜩ {totalIncome.toLocaleString('en-US')}
           </h1>
           <h1 class="title is-4 is-hidden-desktop">
             Total income
@@ -166,7 +166,9 @@
                         </a>
                       </td>
                       <td>
-                        <span>ꜩ {tx.amount / 1000000}</span>
+                        <span>
+                          ꜩ {(tx.amount / 1000000).toLocaleString('en-US')}
+                        </span>
                       </td>
                       <td>
                         <a
@@ -201,7 +203,9 @@
                         </a>
                       </td>
                       <td>
-                        <span>ꜩ {tx.amount / 1000000}</span>
+                        <span>
+                          ꜩ {(tx.amount / 1000000).toLocaleString('en-US')}
+                        </span>
                       </td>
                       <td>
                         <a
@@ -242,7 +246,9 @@
                             {formatHash(tx.sender)}
                           </a>
                           &nbsp;
-                          <span>ꜩ {tx.amount / 1000000}</span>
+                          <span>
+                            ꜩ {(tx.amount / 1000000).toLocaleString('en-US')}
+                          </span>
                         </td>
                       </tr>
                       <tr class="is-hidden-desktop">
@@ -270,7 +276,9 @@
                             {formatHash(tx.sender)}
                           </a>
                           &nbsp;
-                          <span>ꜩ {tx.amount / 1000000}</span>
+                          <span>
+                            ꜩ {(tx.amount / 1000000).toLocaleString('en-US')}
+                          </span>
                         </td>
                       </tr>
                       <tr class="is-hidden-desktop">
