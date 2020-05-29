@@ -7,7 +7,7 @@
     Baking Bad's TzKT API (v1.0)
   </a>
   and
-  <a href="https://www.tzkt.io" target="_blank" rel="noreferrer noopener">
+  <a href="https://tzkt.io" target="_blank" rel="noreferrer noopener">
     Tzkitty API
   </a>
   : :
